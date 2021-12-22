@@ -1,0 +1,49 @@
+.body_hide {
+	opacity: 0;
+	transition: 0.9s opacity ease-in-out;
+}
+
+.body_visible {
+	opacity: 1;
+}
+
+body {
+    background: rgb(191, 226, 223)!important;
+    height: 1000px;
+}
+
+.form-control {
+    background: #f0faf7;
+}
+
+.navbar-brand:hover {
+    color: #1ABC9C!important; 
+}
+
+.thumb img  {
+    padding: 5px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin: 70px 73px;
+    object-fit: cover; /* Передбачити варіант коли оригінали зображень мають різний розмір */
+    transition: 0.5s;
+}
+
+.thumb img:hover {
+    transform: scale(1.35);
+}
+
+#searchN:hover {
+    background: #1abc9c65;
+}
+
+.luv {
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 0;
+}
+
+nav {
+    width: dev;
+}
